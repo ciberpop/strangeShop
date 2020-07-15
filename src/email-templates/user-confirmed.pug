@@ -1,0 +1,7 @@
+extends template
+block content
+    div
+        | Вітаємо на Strange Shop!
+        | Для підтвердження реєстрації перейдіть за посиланням нижче
+        div
+            a(href=frontendUrl + `/email/confirm/` + token) TYT
